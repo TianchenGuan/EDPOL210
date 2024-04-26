@@ -4,7 +4,7 @@ import SectionLeft from "./SectionLeft"
 import SectionRight from "./SectionRight"
 import photo4 from "../../../Photos/4.png"
 
-import Component from './component';
+import Component from './Component';
 
 export default function Prevent() {
     const preventionSteps = [

@@ -2,7 +2,7 @@
 import React from 'react';
 import { Card, Row, Col, Image } from 'react-bootstrap';
 
-const Component = ({ title, photo, text, text2 }) => {
+const PreventComponent = ({ title, photo, text, text2 }) => {
     return (
         <Card className="mb-4 p-3" style={{ borderRadius: '15px', boxShadow: '0 4px 8px rgba(0,0,0,0.1)' }}>
           <Row noGutters className="align-items-center">
@@ -19,4 +19,4 @@ const Component = ({ title, photo, text, text2 }) => {
       );
 };
     
-export default Component;
+export default PreventComponent;
