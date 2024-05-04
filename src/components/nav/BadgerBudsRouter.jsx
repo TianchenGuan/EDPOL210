@@ -14,7 +14,7 @@ export default function BadgerBudsRouter() {
             <Route path="/" element={<BadgerBuds />}>
                 <Route index element={<BadgerBudsLanding />} />
                 {/* TODO: Add your routes here! */}
-                <Route path="/RecentNews" element={<BadgerBudsAdoptable />} />
+                <Route path="/Problems" element={<BadgerBudsAdoptable />} />
                 <Route path="/Consequences" element={<BadgerBudsBasket />} />
                 <Route path="/Prevent" element={<Prevent />} />
                 <Route path="/Resources" element={<MoreResources />} />
